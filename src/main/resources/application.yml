@@ -3,6 +3,7 @@ spring:
     url: jdbc:mysql://localhost:3306/restaurant_db
     username: root
     password:
+    driver-class-name: com.mysql.jdbc.Driver
 
   jpa:
     hibernate:
@@ -12,3 +13,4 @@ spring:
       hibernate:
         format_sql: true
     database: mysql
+    generate-ddl: true
